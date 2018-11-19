@@ -35,6 +35,7 @@ public class Ordenador {
 
         }
 
+        unRaton.setModelo(JOptionPane.showInputDialog("Indicar modelo del raton: "));
         unTeclado.setNumTeclas(Integer.parseInt(JOptionPane.showInputDialog("Numero de teclas del teclado? ")));
         pantalla.setMarca(JOptionPane.showInputDialog("Modelo de monitor? "));
         pantalla.setPulgadas(Float.parseFloat(JOptionPane.showInputDialog("Numero de pulgadas del monitor: ")));
