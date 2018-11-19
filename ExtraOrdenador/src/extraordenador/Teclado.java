@@ -1,26 +1,25 @@
-
 package extraordenador;
 
 public class Teclado {
-    private int numTeclas=0;
-    
+
+    private int numTeclas = 0;
+
     //constructores
-    
-    public Teclado(){
-        
+    public Teclado() {
+
     }
-    
-    public Teclado(int numTeclas){
-        this.numTeclas=numTeclas;
+
+    public Teclado(int numTeclas) {
+        this.numTeclas = numTeclas;
     }
-    
+
     //setters
-    public void setNumTeclas(int numTeclas){
-        this.numTeclas=numTeclas;
+    public void setNumTeclas(int numTeclas) {
+        this.numTeclas = numTeclas;
     }
-    
+
     //getters
-    public int getNumTeclas(){
+    public int getNumTeclas() {
         return numTeclas;
     }
 }

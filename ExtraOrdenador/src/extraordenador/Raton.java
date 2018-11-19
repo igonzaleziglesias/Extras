@@ -19,16 +19,17 @@ public class Raton {
     public void setInhalambrico(boolean inhalambrico) {
         this.inhalambrico = inhalambrico;
     }
-    
-    public void setModelo(String modelo){
-        this.modelo=modelo;
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
     }
-    
+
     //getters
-    public boolean getInhalambrico(){
-        return inhalambrico; 
+    public boolean getInhalambrico() {
+        return inhalambrico;
     }
-    public String getModelo(){
+
+    public String getModelo() {
         return modelo;
     }
 }

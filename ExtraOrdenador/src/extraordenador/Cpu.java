@@ -2,8 +2,8 @@ package extraordenador;
 
 public class Cpu {
 
-    private int nucleos=0;
-    private int ram=0;
+    private int nucleos = 0;
+    private int ram = 0;
 
     //constructores
     public Cpu() {
