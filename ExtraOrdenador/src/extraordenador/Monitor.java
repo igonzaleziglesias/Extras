@@ -7,7 +7,6 @@ public class Monitor {
 
     //constructores
     public Monitor() {
-
     }
 
     public Monitor(String marca, float pulgadas) {
@@ -31,6 +30,11 @@ public class Monitor {
 
     public float getPulgadas() {
         return pulgadas;
+    }
+
+    @Override
+    public String toString() {
+        return "Monitor{" + "marca=" + marca + ", pulgadas=" + pulgadas + '}';
     }
 
 }

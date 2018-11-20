@@ -6,7 +6,6 @@ public class Teclado {
 
     //constructores
     public Teclado() {
-
     }
 
     public Teclado(int numTeclas) {
@@ -21,5 +20,10 @@ public class Teclado {
     //getters
     public int getNumTeclas() {
         return numTeclas;
+    }
+
+    @Override
+    public String toString() {
+        return "Teclado{" + "numTeclas=" + numTeclas + '}';
     }
 }

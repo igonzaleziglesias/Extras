@@ -7,7 +7,6 @@ public class Raton {
 
     //constructores
     public Raton() {
-
     }
 
     public Raton(boolean inhalambrico, String modelo) {
@@ -31,5 +30,10 @@ public class Raton {
 
     public String getModelo() {
         return modelo;
+    }
+
+    @Override
+    public String toString() {
+        return "Raton{" + "inhalambrico=" + inhalambrico + ", modelo=" + modelo + '}';
     }
 }

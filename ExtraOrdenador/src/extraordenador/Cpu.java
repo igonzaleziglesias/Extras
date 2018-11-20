@@ -7,13 +7,11 @@ public class Cpu {
 
     //constructores
     public Cpu() {
-
     }
 
     public Cpu(int nucleos, int ram) {
         this.nucleos = nucleos;
         this.ram = ram;
-
     }
 
     //setters
@@ -32,6 +30,11 @@ public class Cpu {
 
     public int getRam() {
         return ram;
+    }
+
+    @Override
+    public String toString() {
+        return "Cpu{" + "nucleos=" + nucleos + ", ram=" + ram + '}';
     }
 
 }

@@ -51,6 +51,12 @@ public class Ordenador {
                 + "\nMarca del monitor: " + pantalla.getMarca()
                 + "\nNumero de pulgadas del monitor: " + pantalla.getPulgadas()
         );
+
+        /*JOptionPane.showMessageDialog(null, "\n" + procesador.toString()
+                + "\n" + unRaton.toString()
+                + "\n" + unTeclado.toString()
+                + "\n" + pantalla.toString()
+        );*/
     }
 
     public void calcularPrecio() {
